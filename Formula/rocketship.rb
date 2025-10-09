@@ -1,27 +1,27 @@
 class Rocketship < Formula
   desc "Rocketship CLI"
   homepage "https://github.com/rocketship-ai/rocketship"
-  version "v0.5.26"
+  version "v0.5.28"
 
   on_macos do
     on_arm do
-      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.26/rocketship-darwin-arm64"
-      sha256 "921f4b53bdfedf3d8dbdd5d729670c7487a45060b17f11fdb0d5fd5c1e56737c"
+      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.28/rocketship-darwin-arm64"
+      sha256 "77739860dd1c790984e0d5ae12ccb63f2ddda3cda494a9fd38f4bcd6b3d46107"
     end
     on_intel do
-      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.26/rocketship-darwin-amd64"
-      sha256 "500c686728cfcc5cda970663adf53d0a92f831f785c66fdacccf9e5d439654fc"
+      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.28/rocketship-darwin-amd64"
+      sha256 "91753e1b76461fba377fa47964f84bd0ed81f0bf9ae7141471ab4ae6fce05689"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.26/rocketship-linux-arm64"
-      sha256 "252e938474ad5d3fd00a95d3d729955612d6adb9bbfe8b103cb92bde8d40f8f0"
+      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.28/rocketship-linux-arm64"
+      sha256 "dc0bdbccdb8b7173f9bf29282846d17f4cccf565c4871117397cfdbda05d2391"
     end
     on_intel do
-      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.26/rocketship-linux-amd64"
-      sha256 "c0674ace20f86791fbd54fe7fbb44f0588390d83a8476337701151f059bf766d"
+      url "https://github.com/rocketship-ai/rocketship/releases/download/v0.5.28/rocketship-linux-amd64"
+      sha256 "36e9d197c3939d3cae79c332a14ebe7b9eff440b9b0c22149171bbd8a0c739c6"
     end
   end
 
